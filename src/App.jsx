@@ -244,10 +244,10 @@ function App() {
           </h1>
           <div className="grid md:grid-cols-2 gap-10 grid-cols-1 mb-10">
             <div className="flex flex-col gap-4">
-              <h1 className="text-2xl font-bold text-center md:text-left text-black">
+              <h1 className="text-2xl text-left text-black">
                 <i className="ri-chat-3-line ri-lg"></i> Connect With Me
               </h1>
-              <p className="text-black sm:block hidden">
+              <p className="text-black">
                 Ayo ikuti media sosial saya untuk update terbaru seputar proyek,
                 karya, dan perjalanan kreatif saya. Mari berkolaborasi dan
                 wujudkan sesuatu yang luar biasa bersama!
@@ -302,10 +302,10 @@ function App() {
             </div>
 
             <div className="flex flex-col gap-4">
-              <h1 className="text-2xl font-bold text-center md:text-left text-black">
+              <h1 className="text-2xl text-left text-black">
                 <i class="ri-mail-line ri-lg"></i> Contact Form
               </h1>
-              <p className="text-black sm:block hidden">
+              <p className="text-black">
                 Punya proyek yang ingin dikerjakan? Kirim pesan ke saya, dan
                 saya akan menghubungi Anda sesegera mungkin.
               </p>
