@@ -40,7 +40,7 @@ function App() {
               Saya memiliki ketertarikan dalam bidang Programming dan Desain,
               khususnya dalam pembuatan website serta desain grafis seperti
               poster, pamflet, banner, dan konten media sosial. Pengalaman di
-              bidang sudah berlangsung selama lebih dari 6 tahun, mencakup
+              bidang sudah berlangsung selama lebih dari {tahunPengalaman} tahun, mencakup
               berbagai proyek kreatif dan pengembangan digital.
             </p>
             <div className="flex items-center sm:gap-4 gap-2">
@@ -52,7 +52,7 @@ function App() {
               </a>
               <a
                 href="#kontak"
-                className="bg-blue-800 p-4 rounded-2xl hover:bg-blue-400"
+                className="bg-blue-800 p-4 rounded-2xl hover:bg-blue-500"
               >
                 Contact Me <i class="ri-mail-line ri-lg"></i>
               </a>
@@ -237,23 +237,29 @@ function App() {
           <h1
             className="text-4xl font-bold text-center text-black mt-10 mb-5 md:mb-10"
             data-aos="fade-up"
-            data-aos-duration="1000"
+            data-aos-duration="1000"data-aos-delay="300"
             data-aos-once="true"
           >
             Kontak
           </h1>
           <div className="grid md:grid-cols-2 gap-10 grid-cols-1 mb-10">
             <div className="flex flex-col gap-4">
-              <h1 className="text-2xl text-left text-black">
+              <h1 className="text-2xl text-left text-black" data-aos="fade-up"
+            data-aos-duration="1000" data-aos-delay="300"
+            data-aos-once="true">
                 <i className="ri-chat-3-line ri-lg"></i> Connect With Me
               </h1>
-              <p className="text-black">
+              <p className="text-black" data-aos="fade-up"
+            data-aos-duration="1000" data-aos-delay="500"
+            data-aos-once="true">
                 Ayo ikuti media sosial saya untuk update terbaru seputar proyek,
                 karya, dan perjalanan kreatif saya. Mari berkolaborasi dan
                 wujudkan sesuatu yang luar biasa bersama!
               </p>
 
-              <div className="flex flex-col gap-3">
+              <div className="flex flex-col gap-3" data-aos="fade-up"
+            data-aos-duration="1000" data-aos-delay="700"
+            data-aos-once="true">
                 <a
                   href="https://linkedin.com/in/rieskidhanusaputra"
                   target="_blank"
@@ -302,17 +308,23 @@ function App() {
             </div>
 
             <div className="flex flex-col gap-4">
-              <h1 className="text-2xl text-left text-black">
+              <h1 className="text-2xl text-left text-black" data-aos="fade-up"
+            data-aos-duration="1000" data-aos-delay="300"
+            data-aos-once="true">
                 <i class="ri-mail-line ri-lg"></i> Contact Form
               </h1>
-              <p className="text-black">
+              <p className="text-black" data-aos="fade-up"
+            data-aos-duration="1000" data-aos-delay="500"
+            data-aos-once="true">
                 Punya proyek yang ingin dikerjakan? Kirim pesan ke saya, dan
                 saya akan menghubungi Anda sesegera mungkin.
               </p>
               <form
                 action="https://formsubmit.co/rieski.dhanu17@gmail.com"
                 method="POST"
-                className="bg-blue-800 p-8 w-full rounded-md"
+                className="bg-blue-800 p-8 w-full rounded-md" data-aos="fade-up"
+            data-aos-duration="1000" data-aos-delay="700"
+            data-aos-once="true"
                 autoComplete="off"
               >
                 <div className="flex flex-col gap-3 mt-4">
